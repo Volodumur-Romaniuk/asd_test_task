@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="datapicker">
+        <h1 >Datepicker</h1>
+        <button id="open-popup"    >Open</button>
+        <div class="popup">
+            <div class="header">
+                <div class="output">
+
+                </div>
+                <div class="input">
+                    <select name=""  id="months-select">
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                   <input type="number"  value="2022" id="year">
+                </div>
+                
+            </div>
+                <div class="days-names">
+                    <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span  >Sun</span>
+                </div>
+                 <div class="grid-dates">
+                    
+
+                 </div>
+           <div class="buttons">
+                <button id='apply'>apply</button>
+                <button id='change'><img class="dark" src="https://i.ibb.co/5sQqhwT/night-mode-white.png" alt="">
+                    <img  class = "light"  src="https://i.ibb.co/23rQ99k/brightness-light.png" alt=""> </button>
+                <button id='clear'>clear</button>
+           </div>
+        </div>
+    </div>
+        <script src="./app/app.js">
+        </script>
+</body>
+</html>
